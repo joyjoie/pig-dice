@@ -15,19 +15,20 @@ $(document).ready(function() {
     //
         $("button#btn1").click(function(event) {
           $("button#start").hide();
-          var dies = $("#die1","#die2");
-          var status = $("#status1","status2");
+          var die1 = $("#die1");
+          var die2 = $("#die2");
+          var status = $("#status");
           var d1 = Math.floor(Math.random() * 6) + 1;
           var d2 = Math.floor(Math.random() * 6) + 1;
           var diceTotal = $('d1 +d2');
-          var initialScore =0;
+          // var initialScore =0;
           $('#die1').html() = d1;
           $('#die2').html() = d2;
           $('#status').html() = "You rolled" + diceTotal + " .";
           if (d1 == d2) {
-            $('#status'.html() += "yougot the same values ;)";
+            $('#status'.html() += "you get a second try you earned interval ;)";
 
-    //       }
+          }
     // //       if(player1)
     //
     //       $("button#btn2").click(function(event){
