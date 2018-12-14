@@ -1,4 +1,4 @@
-/* .dice{
+.dice{
 
   float: left;
   width: 40px;
@@ -8,6 +8,7 @@
   font-size: 28px;
   text-align: center;
   margin: 7px;
+};
+#status{
+  clear: left;
 }
-#btn{
- } */
