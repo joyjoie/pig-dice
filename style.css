@@ -1,0 +1,11 @@
+.dice{
+
+  float: left;
+  width: 40px;
+  background: #6f706f;
+  border: #999 1px solid;
+  padding: 15px;
+  font-size: 28px;
+  text-align: center;
+  margin: 7px;
+}

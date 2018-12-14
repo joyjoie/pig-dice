@@ -1,8 +1,11 @@
 //business logic
 function rolldie(){
-var player1,player2
-player1= parseInt(Math.random()*6+1)
-player2 = parseInt(Math.random()*6+1)
-  var x =document.getElementsById(die);
-  x=player1 + " and" + player2;
+var die1= document.getElementById("die1");
+var die2 = document.getElementById("die2");
+  var d1 = Math.floor(Math.random()*6)+1;
+  var d2 =Math.floor(Math.random()*6)+1;
+  var diceTotal =d1 +d2;
+  die1.innerHTML = d1;
+  die2.innerHTML = d2;
+
 }
