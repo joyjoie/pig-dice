@@ -5,6 +5,9 @@
   <meta charset="utf-8">
   <title> Roll the dice </title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
   <script type="text/javascript" src="script.js">
   </script>
 </head>
@@ -22,10 +25,18 @@
     <div class="win">
       <p id ="winner"> Winner</p>
     </div>
-
+    <div class="turn">
+      <p id ="turns"></p>
+    </div>
+    <div class="startgame">
+      <button type="button" name="button " id="start"> Start Game</button>
+    </div>
+    <div class="restt">
+    <button type="button" name="button" id="reset">Reset</button>
+    </div>
     <div class="dices">
-      <div id="die1" class="dice"></div>
-      <div id="die2" class="dice"></div>
+      <div id="die1" class="dice">die 1</div>
+      <div id="die2" class="dice">die 2</div>
       <button type="button" name="button" id="btn" onclick="rolldie()">Roll the dice</button>
     </div>
   </div>
