@@ -1,12 +1,12 @@
 # Pigdice
 #### By Joy King'oo
 ## Description
-this is a game that allows a user to roll two die. if one player rolls the dice and gets similar numbers they get an extra turn.if one of the player rolls the die and its output is one,the player has to begin playing the game again. Whoever reaches the highest point is the winner.
+this is a game that allows a user to roll a die if one player is done rolling the die, the next person is given a chance to play.If one of the player rolls the die and its output is one,the player has to begin playing the game again. Whoever reaches the highest point is the winner.
 ## Behaviour Driven Development
-* Gather choice from input given by users
-* Validate total number of wins from the
-* If Validation & Verification of questions fail, Show Error Message
-* Else display results of sum of questions answered correctly
+* Gather choice from submission given by player
+* Player 1 gets their score from rolling a die
+* Player 2 gets their score from rolling a die
+* Winner scores the highest from the tries.
 ## Known Bugs
 No known bugs
 ## Technologies Used

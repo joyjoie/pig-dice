@@ -12,10 +12,3 @@
 #status{
   clear: left;
 }
-body {
-  background-image: url(piggy.jpeg);
-  background-repeat: no-repeat;
-  background-size: 900px;
-  align-content:stretch;
-  /* text-align: center; */
-}
