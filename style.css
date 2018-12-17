@@ -1,14 +1,7 @@
-.dice{
-
-  float: left;
-  width: 40px;
-  background: #6f706f;
-  border: #999 1px solid;
-  padding: 15px;
-  font-size: 28px;
+body {
+  background-image: url(piggy.jpeg);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  align-content: center;
   text-align: center;
-  margin: 7px;
-};
-#status{
-  clear: left;
 }
