@@ -12,6 +12,6 @@ No known bugs
 ## Technologies Used
 HTML Javascript and CSS have been used for development
 ## Support and contact details
-if you have any concerns or issues regarding my current work reach out through my github account
+if you have any concerns or issues regarding the work reach out through my github account
 ### MIT License
 Copyright (c) 2018 **Joywendo**
