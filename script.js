@@ -1,13 +1,13 @@
 function Player(userName) {
   this.userName = userName;
   this.score = 0;
-};
+}
 //pass it a player object!
 function Turn(player) {
   this.total = 0;
   this.randNumber = 0;
   this.player = player;
-};
+}
 Turn.prototype.diceRoller = function(player1, player2) {
     var randNumber = Math.floor(Math.random() * 6) + 1;
     this.total += randNumber;
@@ -19,7 +19,7 @@ Turn.prototype.diceRoller = function(player1, player2) {
     } else {
       this.randNumber += randNumber;
       return randNumber;
-    };
+    }
     Turn.prototype.endTurn = function(player1, player2) {
       //adding total to score
       this.player.score += this.total;
@@ -34,7 +34,7 @@ Turn.prototype.diceRoller = function(player1, player2) {
         this.player = player1;
         $("#player2").toggleClass("active");
         $("#player1").toggleClass("active");
-      };
+      }
     };
     // // business logic
     $(document).ready(function() {
@@ -77,7 +77,7 @@ Turn.prototype.diceRoller = function(player1, player2) {
                 $('#player2-score').text(currentTurn.total + currentTurn.player.score)
                 alert("You are the winner!");
               }
-                       };
+                       }
                    });
                });
              };
