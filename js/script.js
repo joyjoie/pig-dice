@@ -1,6 +1,6 @@
 //Creates a player and sets initial score to 0
-function Player(userName) {
-  this.userName = userName;
+function Player(mtumiAji) {
+  this.mtumiAji = mtumiAji;
   this.score = 0;
 };
 
@@ -67,7 +67,7 @@ $(document).ready(function() {
   $('#player2-score').text(player2.score);
 
   //Prints current Player
-  $('#current_player').text(currentTurn.player.userName);
+  $('#current_player').text(currentTurn.player.mtumiAji);
 
   //This code runs when you click the Roll button
   $("form#roll").submit(function(event) {
@@ -101,7 +101,7 @@ $(document).ready(function() {
     currentTurn.endTurn(player1, player2);
 
     //Prints current Player
-    $('#current_player').text(currentTurn.player.userName);
+    $('#current_player').text(currentTurn.player.mtumiAji);
 
     //Prints players scores
     $('#player1-score').text(player1.score);
